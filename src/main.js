@@ -23,6 +23,8 @@ import Dialog from 'primevue/dialog'
 import Avatar from 'primevue/avatar';
 import Tag from 'primevue/tag'
 import Message from 'primevue/message'
+import Timeline from 'primevue/timeline';
+import Panel from 'primevue/panel'
 
 import ToastService from 'primevue/toastservice';
 import 'primeicons/primeicons.css'
@@ -42,6 +44,8 @@ app.use(PrimeVue, {
     }
 });
 app.component("font-awesome-icon", FontAwesomeIcon)
+app.component('Timeline', Timeline)
+app.component('Panel', Panel)
 app.component('Dialog', Dialog)
 app.component('Message', Message)
 app.component('Tag', Tag)
